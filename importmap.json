@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+    "react": "https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.development.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.development.js",
+    "@MBO/root-config": "//localhost:9000/MBO-root-config.js",
+    "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
+    "@MBO/gaming": "//localhost:3001/MBO-gaming.js",
+    "@MBO/reports": "//localhost:3002/MBO-reports.js",
+    "@MBO/audit": "//localhost:8080/MBO-audit.js"
+  }
+}
